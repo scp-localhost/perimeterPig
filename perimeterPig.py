@@ -269,7 +269,7 @@ if __name__ == "__main__":
                 mainPig.proto='Wifi Dot11Beacon'
                 os.system(setFlirt(interface,"monitor"))
                 prettyPig()
-                #nakedPig()
+                nakedPig()
                 hedyLamarr()
                 setSniffWifi()#sniff(prn=packout, iface=interface)# start sniffing
             else:
